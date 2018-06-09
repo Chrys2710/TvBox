@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvBox", "TvBox\TvBox.csproj", "{B43367F6-1C22-430F-A5F3-BE25B34AAFE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B43367F6-1C22-430F-A5F3-BE25B34AAFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43367F6-1C22-430F-A5F3-BE25B34AAFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43367F6-1C22-430F-A5F3-BE25B34AAFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43367F6-1C22-430F-A5F3-BE25B34AAFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2BFC1C3-572D-4E99-8D73-95B138F83F66}
+	EndGlobalSection
+EndGlobal
