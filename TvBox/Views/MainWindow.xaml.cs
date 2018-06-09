@@ -8,6 +8,16 @@ namespace TvBox.Views
         public MainWindow()
         {
             InitializeComponent();
+
+            //System.Diagnostics.Process.Start("CMD.exe", "\"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe\" --remote-debugging-port=9222");
+            System.Diagnostics.Process.Start("C:\\Users\\Chris\\Documents\\GitHub\\TvBox\\TvBox\\chrome_debug.bat");
+            /*System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "\"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe\" --remote-debugging-port=9222";
+            process.StartInfo = startInfo;
+            process.Start();*/
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

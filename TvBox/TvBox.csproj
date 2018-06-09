@@ -138,6 +138,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="App.config" />
+    <None Include="chrome_debug.bat" />
     <None Include="packages.config" />
     <None Include="Readme.txt" />
     <None Include="Properties\Settings.settings">
