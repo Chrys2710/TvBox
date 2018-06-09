@@ -14,9 +14,9 @@
         </Grid.RowDefinitions>
 
         <Label Grid.Row="0" Grid.Column="0" Content="{Binding Title}" />
-        <Label Grid.Row="1" Grid.Column="0" Background="red" Content="Here goes your real content" />
-        <Button Content="Close tab" HorizontalAlignment="Left" Margin="10,73,0,-43" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="36,118,0,-66" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Canal+" HorizontalAlignment="Left" Margin="10,73,0,-43" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click" Tag="https://www.mycanal.fr/live/&amp;params[tab]=/live-tv/pid5170-live-tv-v2-liste-des-chaines.html&amp;params[filter]=0&amp;params[filters-0$g$]=0$g$2$&amp;params[filters-1$pt$]=current?epgId=301"/>
+        <Button Content="Close App" HorizontalAlignment="Left" Margin="664,85,0,-30" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Canal+ Sport" HorizontalAlignment="Left" Margin="10,98,0,-42" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click" Tag="https://www.mycanal.fr/live/&amp;params[tab]=/live-tv/pid5170-live-tv-v2-liste-des-chaines.html&amp;params[filter]=0&amp;params[filters-0$g$]=0$g$2$&amp;params[filters-1$pt$]=current&amp;get=500?epgId=177"/>
     </Grid>
     
 </catel:Window>

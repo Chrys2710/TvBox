@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace TvBox.Views
 {
@@ -10,7 +11,6 @@ namespace TvBox.Views
         public MainWindow()
         {
             InitializeComponent();
-
             System.Diagnostics.Process.Start("C:\\Users\\Chris\\Documents\\GitHub\\TvBox\\TvBox\\chrome_debug.bat");
         }
 
@@ -27,10 +27,13 @@ namespace TvBox.Views
             // Will drive first tab session
             var sessionWSEndpoint = sessions[0].webSocketDebuggerUrl;
             chrome.SetActiveSession(sessionWSEndpoint);
-            chrome.NavigateTo("https://www.mycanal.fr/live/&params[tab]=/live-tv/pid5170-live-tv-v2-liste-des-chaines.html&params[filter]=0&params[filters-0$g$]=0$g$2$&params[filters-1$pt$]=current&get=500?epgId=177");
-            
+            //chrome.NavigateTo("https://www.mycanal.fr/live/&params[tab]=/live-tv/pid5170-live-tv-v2-liste-des-chaines.html&params[filter]=0&params[filters-0$g$]=0$g$2$&params[filters-1$pt$]=current&get=500?epgId=177");
+            var button = sender as Button;
+            var code = button.Tag;
+            chrome.NavigateTo(code.ToString());
+
             //chrome.Eval("document.querySelector('[data-sp-action=\"fullscreenBtPressed\"]').click();");
-            
+
             //var result = chrome.Eval("document.getElementById('lst-ib').value='Hello World'");
             //result = chrome.Eval("document.forms[0].submit()");
 
